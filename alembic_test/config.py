@@ -1,0 +1,8 @@
+import os
+
+
+CSRF_ENABLED = True
+SQLALCHEMY_TRACK_MODIFICATIONS = False
+SECRET_KEY = 'you_will_+-never_+guessasd'
+SQLALCHEMY_DATABASE_URI = os.getenv('DATABASE_URL')
+SQLALCHEMY_MIGRATE_REPO = 'alembic'
