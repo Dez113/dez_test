@@ -10,3 +10,17 @@ def foo():
 
 def bar():
     return False
+
+def foo():
+    return True
+
+
+def bar():
+    return False
+
+def foo():
+    return True
+
+
+def bar():
+    return False
